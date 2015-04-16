@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.carthage.zorpix.phonechooser.TipOldWaiter">
+
+    <item android:id="@+id/action_GetTip" android:title="Calculate Tips"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_AddWaiter" android:title="@string/title_activity_add_waiter"
+        android:orderInCategory="100" app:showAsAction="never" />
+    \
+    <item android:id="@+id/action_DisplayTips" android:title="@string/title_activity_display_tips"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <!--<item android:id="@+id/action_ViewWaiter" android:title="@string/title_activity_view_waiters"
+        android:orderInCategory="100" app:showAsAction="never" />-->
+
+</menu>

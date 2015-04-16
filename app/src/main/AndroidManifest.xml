@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.carthage.zorpix.phonechooser" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Just the Tip"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Just the Tip" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TipActivity"
+            android:label="Just the Tip"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.carthage.zorpix.phonechooser.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddWaiter"
+            android:label="@string/title_activity_add_waiter" >
+        </activity>
+        <activity
+            android:name=".TipOldWaiter"
+            android:label="@string/title_activity_tip_old_waiter" >
+        </activity>
+        <activity
+            android:name=".DisplayTips"
+            android:label="@string/title_activity_display_tips" >
+        </activity>
+        <activity
+            android:name=".ViewWaiters"
+            android:label="@string/title_activity_view_waiters" >
+        </activity>
+    </application>
+
+</manifest>
